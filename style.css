@@ -1,0 +1,15 @@
+.container{
+    height: 120px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container h1{
+    font-size: 50px;
+}
+.logo{
+    width: 180px;
+}
+.title{
+    font-weight: bold;
+}
