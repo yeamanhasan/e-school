@@ -1,15 +1,129 @@
-.container{
-    height: 120px;
+.active{
+    margin:5px 20px;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
-.container h1{
-    font-size: 50px;
+body p{
+    color: gray;
 }
-.logo{
-    width: 180px;
+.heading{
+    font-size: 55px;
 }
-.title{
-    font-weight: bold;
+/*Small-question*/
+
+.question{
+    color: rgb(255, 123, 0);
+    font-size: 15px;
+}
+
+/*schedule-color*/
+.schedule-color{
+    color:rgb(5, 160, 88);
+}
+
+/*first-background-color-top banner padding*/
+ 
+.group{
+    padding: 10px 40px;
+    background-color:#F0FFF0;
+}
+.top-banner{
+    padding: 30px 30px;
+
+}
+
+/*section-gap*/
+section{
+    margin-bottom: 100px;
+}
+
+
+/*button-design*/
+
+.btn-round{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    color:white;
+    background-color:#21B573;
+}
+
+/*card-design-&-Hover-Design*/
+.card{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px lightgrey;
+    margin: 20px 20px;
+}
+
+.card:hover{
+    box-shadow: 20px 20px 15px dimgrey;
+    transition: 0.2s;
+}
+.btn-round:hover{
+
+    background-color:cyan;
+    transition: 0.2s;
+   
+
+}
+.card-text{
+    color: black !important;
+}
+
+.icon{
+
+    margin-top: 15px;
+    margin-left: 4px;
+    margin-right: 55px;
+
+}
+
+/*centerise-content-&-Colum*/
+
+
+.centerise{
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(33, 34, 34);
+}
+.task{
+    text-align: center;
+}
+.task img{
+    height: 150px;
+}
+
+/*last section*/
+.last-section{
+    
+    background-color: black;
+   margin-bottom: 0 !important;
+}
+p{
+    color: white;
+}
+.link{
+    padding: 60px;
+}
+
+/*footer-design*/
+footer{
+    text-align: center;
+    color: whitesmoke;
+}
+
+/*new-add-of-3rd-section*/
+
+.task{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px dimgrey;
+   
+
+}
+.task:hover{
+    box-shadow: 10px 10px 10px dimgrey;
+    transition: 0.2s;
 }
