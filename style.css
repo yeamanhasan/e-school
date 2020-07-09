@@ -63,8 +63,8 @@ section{
 }
 .btn-round:hover{
 
-    background-color:cyan;
-    transition: 0.2s;
+    background-color:rgb(224, 187, 21);
+    transition: 0.5s;
    
 
 }
